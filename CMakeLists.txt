@@ -8,7 +8,7 @@ if(NOT Slicer_SOURCE_DIR)
   include(${Slicer_USE_FILE})
 endif()
 
-slicerMacroBuildCLI(
+SEMMacroBuildCLI(
   NAME ${EXTENSION_NAME}
   TARGET_LIBRARIES ${ITK_LIBRARIES}
   EXECUTABLE_ONLY
