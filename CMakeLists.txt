@@ -1,7 +1,7 @@
 
 cmake_minimum_required(VERSION 2.8.7)
 
-set(EXTENSION_NAME MinimalistiCli)
+set(MODULE_NAME MinimalistiCli)
 
 if(NOT Slicer_SOURCE_DIR)
   find_package(Slicer REQUIRED)
